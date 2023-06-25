@@ -1,0 +1,31 @@
+.Btn{
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+}
+
+.BtnDark{
+    background: #1e1e1e;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 0.4rem #646cffaa);
+    border: 1px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s;
+}
+
+.BtnDark:hover{
+    background: #5d60a1;
+}
+
+.BtnGreen{
+    background: #1e1e1e;
+    color: #e4e4e4;
+    filter: drop-shadow(0 0 0.2rem #28a745);
+    border: 1px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s;
+}
+
+.BtnGreen:hover{
+    background: #487e54;
+}
