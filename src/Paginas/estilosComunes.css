@@ -68,7 +68,7 @@ h1{
 
 .tablaEmpty{
     color: #e4e4e4;
-    width: calc(100%-2rem);
+    width: calc(100% - 2rem);
     background: #1e1e1ec3;
     padding: 1rem;
     border-radius: 1rem;
