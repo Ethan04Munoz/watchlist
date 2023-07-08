@@ -45,6 +45,7 @@ function Agregar(){
             <option value="Crunchyroll">Crunchyroll</option>
             <option value="Hbo Max">HBO Max</option>
             <option value="Paramount+">Paramount+</option>
+            <option value="Otra plataforma">Otra plataforma</option>
           </select>
           <Boton contenido="Agregar pelicula" clase="Btn BtnDark" onClick={añadirPelicula}/>
         </form>

@@ -74,6 +74,24 @@ h1{
     border-radius: 1rem;
 }
 
+.cabecera {
+    transition: all 0.2s ease-out;
+    height: 3rem;
+    min-width: 3rem;
+}
+
+.cabecera:hover {
+    background: #5d60a1;
+}
+
+.mostrar{
+    opacity: 1;
+}
+
+.ocultar{
+    opacity: 0;
+}
+/* Se cambia la imagen del fondo de pantalla a una vertical en caso de que la orientacion del dispositivo tambien lo sea */
 @media (orientation: portrait) {
     body{
         background: url("../img/portrait.png");
